@@ -1,4 +1,4 @@
-# ¿Cómo crear ambientes de desarrollo para tus equipos con Ansible Automation Platform?
+# Cómo crear ambientes de desarrollo para tus equipos con Ansible Automation Platform
 
 ## El Problema
 - Tenemos equipos de trabajo que no tienen RHEL ni Linux en sus _desktops_.
