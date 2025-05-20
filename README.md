@@ -29,7 +29,7 @@ Todas las herramientas de CLI vienen en un metapaquete llamado `ansible-dev-tool
 
 1. Nos aseguramos de que está instalado el repositorio que necesitamos:
 
-```sh
+```
 $ sudo yum search ansible-dev-tools --enablerepo=ansible-automation-platform-2.5-for-rhel-9-x86_64-rpms
 Updating Subscription Management repositories.
 Last metadata expiration check: 0:11:17 ago on Mon May 19 23:44:19 2025.
@@ -41,7 +41,7 @@ ansible-dev-tools+server.noarch : Metapackage for ansible-dev-tools: server extr
 
 2. Luego instalamos todas las herramientas con el metapaquete `ansible-dev-tools`:
 
-```sh
+```
 $ sudo yum install ansible-dev-tools --enablerepo=ansible-automation-platform-2.5-for-rhel-9-x86_64-rpms
 Updating Subscription Management repositories.
 Last metadata expiration check: 0:03:46 ago on Mon May 19 23:44:19 2025.
@@ -57,7 +57,7 @@ Installing:
 
 3. Confirmar que tenemos todas las herramientas que nos interesan. En este caso son: `ansible-navigator`, `ansible-lint`, `ansible-builder` y `molecule`. (Todas las versiones que se muestran acá corresponden a la versión 2.5 de AAP)
 
-```sh
+```
 $ ansible-navigator --version
 ansible-navigator 25.1.0
 
