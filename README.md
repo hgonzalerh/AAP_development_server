@@ -77,3 +77,5 @@ molecule 25.2.0 using python 3.11
 ## 3. Extensión SSH para VSCode
 Pensando en que los desarrolladores de automatización no están en un escritorio de RHEL, existe una extensión de Visual Studio Code (VSCode) para trabajar en un servidor SSH simulando tenerlo localmente: [Visual Studio Code Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh). Usa las instrucciones del link para instalarla y hacer `Connect to Host...`a nuestro servidor RHEL.
 
+Cada desarrollador de Ansible usa su propia cuenta local o de dominio en el server para conectarse.
+
