@@ -21,7 +21,7 @@ Debemos provisionar un servidor estándar corriendo Red Hat Enterprise Linux 9. 
 > Con RHEL9 y las suscripciones de Ansible Automation Platform, nos aseguramos que las versiones de las herramientas están soportadas y que serán las mismas a usar en producción. No debemos usar pip ni otros paquetes comunitarios.
 
 > [!NOTE]
-> La suscripción de Ansible Automation Platform asociada a la Red Hat Developer Subscription nos da acceso permanente a estas herramientas también. Ver http://developers.redhat.com y https://www.redhat.com/en/technologies/management/ansible/trial
+> La suscripción de Ansible Automation Platform asociada a la __Red Hat Developer Subscription__ nos da acceso permanente a estas herramientas también. Ver http://developers.redhat.com y https://www.redhat.com/en/technologies/management/ansible/trial
 
 ## 2. Paquetes CLI de Ansible Automation Platform
 
