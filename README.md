@@ -1,7 +1,7 @@
 # ¿Cómo crear ambientes de desarrollo para tus equipos con Ansible Automation Platform?
 
 ## El Problema
-- Tenemos equipos que no tienen RHEL ni Linux en sus equipos de escritorio.
+- Tenemos equipos de trabajo que no tienen RHEL ni Linux en sus _desktops_.
 - Queremos que estos equipos desarrollen código de Ansible y puedan probarlo a través de la línea de comando.
 - Queremos usar las versiones de las herramientas de CLI soportadas por AAP: `ansible-navigator`, `ansible-lint`, `ansible-builder` y `molecule`.
 - Queremos usar VSCode y la extensión oficial de Red Hat para VSCode, con sintaxis, autocompletado y análisis estático (linting).
@@ -16,6 +16,14 @@
 ## 1. Servidor RHEL 
 
 Debemos provisionar un servidor estándar corriendo Red Hat Enterprise Linux 9. Si el sistema vive detrás de un servidor Satellite, debemos asegurarnos que la suscripciones de Ansible Automation Platform estén incluidas.
+
+```
+$ sudo dnf repolist --all |grep ansible-automation-platform-2.5
+ansible-automation-platform-2.5-for-rhel-9-x86_64-debug-rpms  Red Hat A disabled
+ansible-automation-platform-2.5-for-rhel-9-x86_64-rpms        Red Hat A disabled
+ansible-automation-platform-2.5-for-rhel-9-x86_64-source-rpms Red Hat A disabled
+
+```
 
 > [!NOTE]
 > Con RHEL9 y las suscripciones de Ansible Automation Platform, nos aseguramos que las versiones de las herramientas están soportadas y que serán las mismas a usar en producción. No debemos usar pip ni otros paquetes comunitarios.
