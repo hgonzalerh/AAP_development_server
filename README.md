@@ -26,7 +26,7 @@ ansible-automation-platform-2.5-for-rhel-9-x86_64-source-rpms Red Hat A disabled
 ```
 
 > [!NOTE]
-> Con RHEL9 y las suscripciones de Ansible Automation Platform, nos aseguramos que las versiones de las herramientas están soportadas y que serán las mismas a usar en producción. No debemos usar pip ni otros paquetes comunitarios. No usaremos el paquete `ansible-core` que viene en los repositorios del sistema operativo.
+> Al usar RHEL9 y las suscripciones de Ansible Automation Platform, nos aseguramos que las versiones de las herramientas están soportadas y que serán las mismas a usar en producción. No debemos usar pip ni otro repositorio comunitario. Tampoco usaremos el paquete `ansible-core` que viene en los repositorios del sistema operativo.
 
 > [!NOTE]
 > La suscripción de Ansible Automation Platform asociada a la __Red Hat Developer Subscription__ nos da acceso permanente a estas herramientas también. Ver http://developers.redhat.com y https://www.redhat.com/en/technologies/management/ansible/trial
