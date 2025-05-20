@@ -3,8 +3,8 @@
 ## El Problema
 - Tenemos equipos que no tienen RHEL ni Linux en sus equipos de escritorio.
 - Queremos que estos equipos desarrollen código de Ansible y puedan probarlo a través de la línea de comando.
-- Queremos usar las versiones de las herramientas de CLI soportadas por AAP: ansible-navigator, molecule, ansible-lint, ansible-builder, ansible-playbook, ansible-inventory, ansible-config
-- Queremos usar VSCode y la extensión oficial de Red Hat para VSCode.
+- Queremos usar las versiones de las herramientas de CLI soportadas por AAP: `ansible-navigator`, `ansible-lint`, `ansible-builder` y `molecule`.
+- Queremos usar VSCode y la extensión oficial de Red Hat para VSCode, con sintaxis, autocompletado y análisis estático (linting).
 
 ## La Solución
 1. Utilizar un solo servidor RHEL donde los miembros del equipo tengan cuentas locales o asociadas a un login centralizado. 
