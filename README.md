@@ -88,5 +88,5 @@ Pensando en que los desarrolladores de automatización no están en un escritori
 Cada desarrollador de Ansible usa su propia cuenta local o de dominio en el server para conectarse.
 
 ## 4. Extensión Ansible by Red Hat para VSCode
-[Ansible VS Code Extension by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.ansible)
+Una vez conectados al ambiente remoto, instalar [Ansible VS Code Extension by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.ansible)
 
