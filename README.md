@@ -1,4 +1,4 @@
-# Cómo crear ambientes de desarrollo para tus equipos con Ansible Automation Platform
+# Cómo crear un ambiente de desarrollo(_Utility Server_) para tus equipos con Ansible Automation Platform
 
 ## El Problema
 - Tenemos equipos de trabajo que no tienen RHEL ni Linux en sus _desktops_.
@@ -87,3 +87,5 @@ Pensando en que los desarrolladores de automatización no están en un escritori
 
 Cada desarrollador de Ansible usa su propia cuenta local o de dominio en el server para conectarse.
 
+## 4. Extensión Ansible by Red Hat para VSCode
+[]https://marketplace.visualstudio.com/items?itemName=redhat.ansible
