@@ -1,4 +1,4 @@
-# Cómo crear un ambiente de desarrollo(_Utility Server_) para tus equipos con Ansible Automation Platform
+# Cómo crear un servidor de desarrollo(_utility server_) para tus equipos con Ansible Automation Platform
 
 ## El Problema
 - Tenemos equipos de trabajo que no tienen RHEL ni Linux en sus _desktops_.
