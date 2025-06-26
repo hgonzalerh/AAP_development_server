@@ -33,7 +33,7 @@ ansible-automation-platform-2.5-for-rhel-9-x86_64-source-rpms Red Hat A disabled
 
 ## 2. Paquetes CLI de Ansible Automation Platform
 
-Todas las herramientas de CLI vienen en un metapaquete llamado `ansible-dev-tools` (*upstream*)[https://ansible.readthedocs.io/projects/dev-tools/]. 
+Todas las herramientas de CLI vienen en un metapaquete llamado `ansible-dev-tools` [*upstream*](https://ansible.readthedocs.io/projects/dev-tools/).
 
 1. Nos aseguramos de que está instalado el repositorio que necesitamos:
 
