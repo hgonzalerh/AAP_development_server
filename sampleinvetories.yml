@@ -34,4 +34,6 @@ controller_templates:
   - Prod Miapp DR
   notification_templates_error:
   - Slack_equipos_productivos
+  ask_credential_on_launch: true
+  
   
