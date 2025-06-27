@@ -12,6 +12,7 @@ controller_templates:
   extra_vars: "{{ survey_extra_vars }}"
   notification_templates_error:
   - Slack_for_testing
+  
 - name: No Survey Template no vars
   job_type: run
   inventory: Demo Inventory
@@ -23,3 +24,14 @@ controller_templates:
   extra_vars: "{{ empty_master_vars }}"
   notification_templates_error:
   - Slack_for_testing
+  
+- name: Template Nuevo Proyecto
+  job_type: run
+  inventory: Prod Miapp Linux
+  project: controller Config
+  playbook: deploy_app.yml
+  credentials:
+  - Prod Miapp DR
+  notification_templates_error:
+  - Slack_equipos_productivos
+  
